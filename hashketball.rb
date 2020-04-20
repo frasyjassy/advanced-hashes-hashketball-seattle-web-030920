@@ -153,7 +153,7 @@ def team_colors(team_name)
     end
   end
 end
-binding.pry
+#binding.pry
 
 def team_names
   game_hash.map do |place, team|
