@@ -1,5 +1,5 @@
 
-
+require 'pry'
 def game_hash
     {
       :away => { :team_name => "Charlotte Hornets",
@@ -153,7 +153,7 @@ def team_colors(team_name)
     end
   end
 end
-
+binding.pry
 def team_names
   game_hash.map do |place, team|
     team[:team_name]
